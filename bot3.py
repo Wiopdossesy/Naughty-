@@ -1565,17 +1565,12 @@ def menu_callback(call):
 	stopuser[f'{id}']['status'] = 'stop'
 
 	
-print("\033[92mThe bot is now up and running!\033[0m")
+print("the bot has been launched")
 while True:
 	try:
 		bot.polling(none_stop=True)
 	except Exception as e:
 		print(f"an error occurred: {e}")
-		print(f'[{line}] ' + card + ' » ' + result + ' ❌ ')
+		print(f'[{line}] '+card+' ➜ '+result+' ❌ ')
 		print(Z+o)
 	time.sleep(0)
-
-if sys.version_info[0] < 3: 
-    reload(sys) 
-sys.setdefaultencoding('utf-8')
-
