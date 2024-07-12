@@ -1569,10 +1569,13 @@ def menu_callback(call):
 	stopuser[f'{id}']['status'] = 'stop'
 
 	
-print("the bot has been launched")
-while True:
-	print("Running background task...")
+print("The bot has been launched")
+
+try:
+    while True:
+        print("Running background task...")
+        # Simulate the background task
+        time.sleep(0)
 except Exception as e:
-print(f"an error occurred: {e}")
-print(f'[{line}] '+card+' ➜ '+result+' ❌ ')
-time.sleep(0)
+    print(f"An error occurred: {e}")
+    print(f'[{line}] {card} ➜ {result} ❌ ')
