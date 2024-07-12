@@ -257,7 +257,7 @@ def menu_callback(call):
 						bot.edit_message_text(chat_id=call.chat.id, message_id=ko, text='𝗦𝗧𝗢𝗣𝗣𝗘𝗗 ✅\n𝘾𝙃𝘼𝙉𝙉𝙀𝙇 𝗕𝗬 ➜ @lakshayfr')
 						return
 					try:
-						data = requests.get('https://binlist.io/lookup/%7B%7D/'+cc[:6]).json()
+						data = requests.get('https://binlist.io/lookup/'+cc[:6]).json()
 					except:
 						pass
 					try:
@@ -451,7 +451,7 @@ def menu_callback(call):
 						bot.edit_message_text(chat_id=call.chat.id, message_id=ko, text='𝗦𝗧𝗢𝗣𝗣𝗘𝗗 ✅\n𝘾𝙃𝘼𝙉𝙉𝙀𝙇 𝗕𝗬 ➜ @lakshayfr')
 						return
 					try:
-						data = requests.get('https://binlist.io/lookup/%7B%7D/'+cc[:6]).json()
+						data = requests.get('https://binlist.io/lookup/'+cc[:6]).json()
 						
 						
 					except:
