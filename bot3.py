@@ -1569,8 +1569,4 @@ print("the bot has been launched")
 while True:
 	try:
 		bot.polling(none_stop=True)
-	except Exception as e:
-		print(f"an error occurred: {e}")
-		print(R+f'[{line}] '+card+' ➜ '+result+' ❌ ')
-		print(Z+o)
-	time.sleep(0)
+		time.sleep(0)
