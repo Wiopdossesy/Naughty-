@@ -1575,5 +1575,4 @@ while True:
 	except Exception as e:
 		print(f"an error occurred: {e}")
 		print(f'[{line}] '+card+' ➜ '+result+' ❌ ')
-		print(Z+o)
-	time.sleep(0)
+		time.sleep(0)
