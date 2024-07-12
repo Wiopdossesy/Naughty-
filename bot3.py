@@ -1571,11 +1571,29 @@ def menu_callback(call):
 	
 print("The bot has been launched")
 
+line = 0  # Initialize the counter
+card = "Initial Card"
+result = "Initial Result"
+
+def perform_task():
+    global line
+    global card
+    global result
+    try:
+        # Increment the counter
+        line += 1
+        card = f"Card {line}"
+        result = f"Result {line}"
+        # Log the updated values
+        print(f"Task performed: [{line}] {card} ➜ {result}")
+    except Exception as e:
+        print(f"Task execution failed: {e}")
+
 try:
     while True:
         print("Running background task...")
-        # Simulate the background task
-        time.sleep(0)
+        perform_task()
+        time.sleep(1)  # Use a non-zero value to avoid a busy-wait loop
 except Exception as e:
-    print(f"An error occurred: {e}")
+    print(f"An error occurred in the main loop: {e}")
     print(f'[{line}] {card} ➜ {result} ❌ ')
