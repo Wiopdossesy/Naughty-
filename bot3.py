@@ -1,6 +1,7 @@
 import telebot,os
 import re,json
 import requests
+import time
 import telebot,time,random
 import random
 import string
@@ -1570,9 +1571,8 @@ def menu_callback(call):
 	
 print("the bot has been launched")
 while True:
-	try:
-		bot.polling(none_stop=True)
-	except Exception as e:
-		print(f"an error occurred: {e}")
-		print(f'[{line}] '+card+' ➜ '+result+' ❌ ')
-		time.sleep(0)
+	print("Running background task...")
+except Exception as e:
+print(f"an error occurred: {e}")
+print(f'[{line}] '+card+' ➜ '+result+' ❌ ')
+time.sleep(0)
