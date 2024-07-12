@@ -257,7 +257,7 @@ def menu_callback(call):
 						bot.edit_message_text(chat_id=call.chat.id, message_id=ko, text='𝗦𝗧𝗢𝗣𝗣𝗘𝗗 ✅\n𝘾𝙃𝘼𝙉𝙉𝙀𝙇 𝗕𝗬 ➜ @lakshayfr')
 						return
 					try:
-						data = requests.get('https://binlist.io/lookup/'+cc[:6]).json()
+						data = requests.get('https://api.nophq.cc/bin/?bin='+cc[:6]).json()
 					except:
 						pass
 					try:
@@ -451,7 +451,7 @@ def menu_callback(call):
 						bot.edit_message_text(chat_id=call.chat.id, message_id=ko, text='𝗦𝗧𝗢𝗣𝗣𝗘𝗗 ✅\n𝘾𝙃𝘼𝙉𝙉𝙀𝙇 𝗕𝗬 ➜ @lakshayfr')
 						return
 					try:
-						data = requests.get('https://binlist.io/lookup/'+cc[:6]).json()
+						data = requests.get('https://api.nophq.cc/bin/?bin='+cc[:6]).json()
 						
 						
 					except:
@@ -929,7 +929,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 		last = str(Tele(cc))
 	except Exception as e:
 		last='Error'
-	try: data = requests.get('https://bins.antipublic.cc/bins/'+cc[:6]).json()
+	try: data = requests.get('https://api.nophq.cc/bin/?bin='+cc[:6]).json()
 	except: pass
 	try:
 		level = data['level']
@@ -1137,7 +1137,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 	except Exception as e:
 		last='Error'
 		print(e)
-	try: data = requests.get('https://bins.antipublic.cc/bins/'+cc[:6]).json()
+	try: data = requests.get('https://api.nophq.cc/bin/?bin='+cc[:6]).json()
 	except: pass
 	try:
 	    level = data['level']
