@@ -12,6 +12,8 @@ from datetime import datetime, timedelta
 from faker import Faker
 from multiprocessing import Process
 import threading
+from keep_alive import keep_alive
+keep_alive()
 stopuser = {}
 line='ok'
 card='ahhhhhhhhhhhhhhhhhhh'
