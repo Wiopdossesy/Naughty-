@@ -20,6 +20,7 @@ mdurl==0.1.2
 multidict==6.0.4
 N4Tools==1.7.1
 names==0.3.0
+flask
 pillow==10.2.0
 pyarmor==8.4.7
 pyarmor.cli.core==5.4.3
