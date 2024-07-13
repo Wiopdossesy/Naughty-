@@ -1571,13 +1571,12 @@ def menu_callback(call):
 	stopuser[f'{id}']['status'] = 'stop'
 
 	
-print("The bot has been launched")
-
-try:
-    while True:
-        print("Running background task...")
-        # Simulate the background task
-        time.sleep(2)
-except Exception as e:
-    print(f"An error occurred: {e}")
-    print(f'[{line}] {card} ➜ {result} ❌ ')
+print("\033[92mThe bot is now up and running!\033[0m")
+while True:
+	try:
+		bot.polling(none_stop=True)
+	except Exception as e:
+		print(f"an error occurred: {e}")
+		print(f'[{line}] ' + card + ' » ' + result + ' ❌ ')
+		print(Z+o)
+	time.sleep(0)
