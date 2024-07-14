@@ -16,7 +16,7 @@ from keep_alive import keep_alive
 keep_alive()
 stopuser = {}
 line='ok'
-card='ahhhhhhhhhhhhhhhhhhh'
+card='ahhhhhhhhhhhhhhhhh'
 result='ahmahmahm'
 token = '7371222023:AAHBreBPEWKeoEC3OZYabLBACh5fWbGSsdQ'
 bot=telebot.TeleBot(token,parse_mode="HTML")
