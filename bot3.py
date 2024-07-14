@@ -334,7 +334,7 @@ def menu_callback(call):
 ◆ 𝑩𝑨𝑵𝑲 ➜ <code>{bank}</code>
 ◆ 𝑪𝑶𝑼𝑵𝑻𝑹𝒀 ➜ <code>{country} - {country_flag}</code> 
 - - - - - - - - - - - - - - - - - - - - - - -
-◆ 𝑩𝒀: @LAKSHAYFR
+◆ 𝑩𝒀: @Naughtyxd
 ◆ 𝑻𝑨𝑲𝑬𝑵 ➜ {"{:.1f}".format(execution_time)} secounds .</b>'''
 					msgc=f'''<b>𝑪𝑪𝑵 ☑️
 			- - - - - - - - - - - - - - - - - - - - - - -
@@ -346,7 +346,7 @@ def menu_callback(call):
 ◆ 𝑩𝑨𝑵𝑲 ➜ <code>{bank}</code>
 ◆ 𝑪𝑶𝑼𝑵𝑻𝑹𝒀 ➜ <code>{country} - {country_flag}</code> 
 - - - - - - - - - - - - - - - - - - - - - - -
-◆ 𝑩𝒀: @lakshayfr
+◆ 𝑩𝒀: @Naughtyxd
 ◆ 𝑻𝑨𝑲𝑬𝑵 ➜ {"{:.1f}".format(execution_time)} secounds .</b>'''
 					msgf=f'''<b>𝑰𝑵𝑺𝑼𝑭𝑭𝑰𝑪𝑰𝑬𝑵𝑻 𝑭𝑼𝑵𝑫𝑺 ☑️
 			- - - - - - - - - - - - - - - - - - - - - - -
