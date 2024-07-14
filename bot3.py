@@ -15,6 +15,8 @@ import threading
 from keep_alive import keep_alive
 keep_alive()
 stopuser = {}
+z= 'okokok'
+o= 'hmnmmmm'
 line='ok'
 card='ahhhhhhhhhhhhhhhhh'
 result='ahmahmahm'
