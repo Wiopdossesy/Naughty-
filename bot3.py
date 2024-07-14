@@ -281,9 +281,9 @@ def menu_callback(call):
 					except:
 						country_flag=('𝒖𝒏𝒌𝒏𝒐𝒘𝒏')
 					try:
-						country=(data['country']['name'])
+						country_name=(data['country']['name'])
 					except:
-						country=('𝒖𝒏𝒌𝒏𝒐𝒘𝒏')
+						country_name=('𝒖𝒏𝒌𝒏𝒐𝒘𝒏')
 					try:
 						brand=(data['scheme'])
 					except:
@@ -477,9 +477,9 @@ def menu_callback(call):
 					except:
 						country_flag=('𝒖𝒏𝒌𝒏𝒐𝒘𝒏')
 					try:
-						country=(data['country']['name'])
+						country_name=(data['country']['name'])
 					except:
-						country=('𝒖𝒏𝒌𝒏𝒐𝒘𝒏')
+						country_name=('𝒖𝒏𝒌𝒏𝒐𝒘𝒏')
 					try:
 						brand=(data['scheme'])
 					except:
@@ -743,10 +743,10 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 	except:
 		card_type = 'Unknown'
 	try:
-		country = data['country']
+		country_name = data['country']
 		country_flag = data['country_flag']
 	except:
-		country = 'Unknown'
+		country_name = 'Unknown'
 		country_flag = 'Unknown'
 	try:
 		bank = data['bank']
@@ -952,10 +952,10 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 	except:
 		card_type = 'Unknown'
 	try:
-		country = data['country_name']
+		country_name = data['country_name']
 		country_flag = data['country_flag']
 	except:
-		country = 'Unknown'
+		country_name = 'Unknown'
 		country_flag = 'Unknown'
 	try:
 		bank = data['bank']
@@ -1160,10 +1160,10 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 	except:
 		card_type = 'Unknown'
 	try:
-		country = data['country']
+		country_name = data['country']
 		country_flag = data['country_flag']
 	except:
-		country = 'Unknown'
+		country_name = 'Unknown'
 		country_flag = 'Unknown'
 	try:
 		bank = data['bank']
@@ -1505,10 +1505,10 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 	except:
 		card_type = 'Unknown'
 	try:
-		country = data['country']
+		country_name = data['country']
 		country_flag = data['country_flag']
 	except:
-		country = 'Unknown'
+		country_name = 'Unknown'
 		country_flag = 'Unknown'
 	try:
 		bank = data['bank']
